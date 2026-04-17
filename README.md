@@ -13,14 +13,15 @@ go run main.go
 - GET /me
 
 ## Response:
+```bash
 {
 "message": "API is running"
 }
-
+```bash
 {
 "message": "healthy"
 }
-
+```bash
 {
 "name": "Your Full Name",
 "email": "you@example.com
