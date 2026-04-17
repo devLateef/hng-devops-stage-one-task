@@ -60,7 +60,7 @@ func main() {
 	})
 
 	server := &http.Server{
-		Addr:         ":8000",
+		Addr:         "127.0.0.1:8000",
 		Handler:      mux,
 		ReadTimeout:  5 * time.Second,
 		WriteTimeout: 5 * time.Second,
