@@ -1,3 +1,3 @@
-module go-api
+module hng-stage-one-api
 
 go 1.26.2
